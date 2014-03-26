@@ -5,23 +5,21 @@ window.bookmarklet = function(opts) {
 // These are the styles, scripts and callbacks we include in our bookmarklet:
 window.bookmarklet({
 
-    css: ['https://amitrogye.github.io/SNHelper/css/wheelmenu.css'],
-    js: ['https://amitrogye.github.io/SNHelper/js/jquery.wheelmenu.min.js'],
+    css: ['https://amitrogye.github.io/SNHelper/css/jquery.ferro.ferroMenu.css'],
+    js: ['https://amitrogye.github.io/SNHelper/js/jquery.ferro.ferroMenu-1.2.2.min.js'],
     jqpath: 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js',
     ready: function() {
 
 
         alert("hello -- " + jQuery.fn.jquery);
 
-        var wheel = '<a href="#wheel" class="wheel-button"><span>+</span></a><ul id="wheel"  data-angle="all"><li class="item"><a href="#home">A</a></li><li class="item"><a href="#home">B</a></li><li class="item"><a href="#home">C</a></li><li class="item"><a href="#home">CC</a></li></ul>';
+
+
+        var wheel = '<ul id="nav"><li><a href="javascript:void(0);">UP</a></li><li><a href="javascript:void(0);">New</a></li></ul>';
         jQuery("body").append(wheel);
 
         jQuery(document).ready(function() {
-            jQuery(".wheel-button").wheelmenu({
-                trigger: "hover",
-                animation: "fly",
-                animationSpeed: "fast"
-            });
+            jQuery("#nav").ferroMenu();
         });
     }
 })
