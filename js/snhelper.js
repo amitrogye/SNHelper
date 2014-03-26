@@ -5,7 +5,7 @@ window.bookmarklet = function(opts) {
 // These are the styles, scripts and callbacks we include in our bookmarklet:
 window.bookmarklet({
 
-	css: ['https://amitrogye.github.io/SNHelper/css/wheelmenu.css'],
+    css: ['https://amitrogye.github.io/SNHelper/css/wheelmenu.css'],
     js: ['https://amitrogye.github.io/SNHelper/js/jquery.wheelmenu.min.js'],
     jqpath: 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js',
     ready: function() {
@@ -13,6 +13,16 @@ window.bookmarklet({
 
         alert("hello -- " + jQuery.fn.jquery);
 
+        var wheel = '<a href="#wheel" class="wheel-button"><span>+</span></a><ul id="wheel"  data-angle="all"><li class="item"><a href="#home">A</a></li><li class="item"><a href="#home">B</a></li><li class="item"><a href="#home">C</a></li><li class="item"><a href="#home">CC</a></li></ul>';
+        jQuery("body").append(wheel);
+
+        jQuery(document).ready(function() {
+            jQuery(".wheel-button").wheelmenu({
+                trigger: "hover",
+                animation: "fly",
+                animationSpeed: "fast"
+            });
+        });
     }
 })
 
