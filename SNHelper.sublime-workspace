@@ -1,0 +1,1100 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"log"
+			],
+			[
+				"app",
+				"approverGroups"
+			],
+			[
+				"G",
+				"GlideRecord"
+			],
+			[
+				"re",
+				"record"
+			],
+			[
+				"inc",
+				"incidentObject"
+			],
+			[
+				"req",
+				"requested_by"
+			],
+			[
+				"gr",
+				"gruser"
+			],
+			[
+				"a",
+				"attachment_name"
+			],
+			[
+				"att",
+				"attachment_type"
+			],
+			[
+				"grC",
+				"grCi"
+			],
+			[
+				"has",
+				"hasNext"
+			],
+			[
+				"_ws",
+				"_ws_changeInfo"
+			],
+			[
+				"change_",
+				"change_task"
+			],
+			[
+				"rec",
+				"recordUrl"
+			],
+			[
+				"ci",
+				"ciList"
+			],
+			[
+				"get",
+				"getApplicationList"
+			],
+			[
+				"ar",
+				"arrCiNames"
+			],
+			[
+				"cu",
+				"curentExecutionCount"
+			],
+			[
+				"tr",
+				"trigger"
+			],
+			[
+				"S",
+				"STATUS_SENT"
+			],
+			[
+				"ST",
+				"STATUS_PROCESSING"
+			],
+			[
+				"s",
+				"strHandler"
+			],
+			[
+				"is",
+				"isRecognizedHandler"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"field",
+				"fieldValue"
+			],
+			[
+				"ex",
+				"expidited"
+			],
+			[
+				"e",
+				"addEncodedQuery"
+			],
+			[
+				"isRe",
+				"isReadyToSubmit"
+			],
+			[
+				"pa",
+				"param"
+			],
+			[
+				"cat",
+				"catch"
+			],
+			[
+				"chg",
+				"changeObj"
+			],
+			[
+				"change",
+				"change_request"
+			],
+			[
+				"end",
+				"end_date"
+			],
+			[
+				"ws",
+				"ws_response"
+			],
+			[
+				"ch",
+				"changeObj"
+			],
+			[
+				"ws_",
+				"ws_checkRequiredFields"
+			],
+			[
+				"cha",
+				"changeObj"
+			],
+			[
+				"atta",
+				"attachment"
+			],
+			[
+				"sys",
+				"sys_id"
+			],
+			[
+				"chgO",
+				"changeObj"
+			],
+			[
+				"CH",
+				"CHG_TASK_STATE_PENDING"
+			],
+			[
+				"tas",
+				"taskOpened"
+			],
+			[
+				"pare",
+				"parentApplications"
+			],
+			[
+				"ne",
+				"new"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"grCh",
+				"grChangeCategory"
+			],
+			[
+				"reco",
+				"recordURL"
+			],
+			[
+				"emer",
+				"Emergency"
+			],
+			[
+				"work",
+				"work_end"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"cance",
+				"cancelChangeTasks"
+			],
+			[
+				"can",
+				"cancel"
+			],
+			[
+				"STA",
+				"STATE_CANCELLED"
+			],
+			[
+				"stat",
+				"state"
+			],
+			[
+				"update",
+				"update"
+			],
+			[
+				"Sta",
+				"STATE_CANCELLED"
+			],
+			[
+				"sta",
+				"state"
+			],
+			[
+				"plan",
+				"planStartDateMsE"
+			],
+			[
+				"arr",
+				"arrMgr"
+			],
+			[
+				"in",
+				"includeManager"
+			],
+			[
+				"add",
+				"addQuery"
+			],
+			[
+				"st",
+				"STATE_DRAFT"
+			],
+			[
+				"chan",
+				"change_task"
+			],
+			[
+				"risk",
+				"risk"
+			],
+			[
+				"c",
+				"chg"
+			],
+			[
+				"g",
+				"gca	gca"
+			],
+			[
+				"all",
+				"allGroups"
+			],
+			[
+				"state_",
+				"STATE_IMPLEMENTED"
+			],
+			[
+				"use",
+				"userPhone"
+			],
+			[
+				"A",
+				"APPLICATION_SOX_FIELD"
+			],
+			[
+				"Ap",
+				"APPLICATION_TABLE"
+			],
+			[
+				"APPROVER",
+				"APPROVERS_FIELD"
+			],
+			[
+				"appr",
+				"approvers"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"p",
+				"print"
+			],
+			[
+				"Variabl",
+				"variableValue"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"App",
+				"approvers"
+			],
+			[
+				"T",
+				"TIER1_TABLE"
+			],
+			[
+				"Tier",
+				"TierArr"
+			],
+			[
+				"Ti",
+				"TierArr"
+			],
+			[
+				"tie",
+				"Tier1"
+			],
+			[
+				"lo",
+				"logDebug"
+			],
+			[
+				"gc",
+				"gc	gc"
+			],
+			[
+				"filter-",
+				"filter-Next"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"getT",
+				"getTableName"
+			],
+			[
+				"bu",
+				"u_business_service"
+			],
+			[
+				"ge",
+				"getUserID"
+			],
+			[
+				"var",
+				"vargr	vargr"
+			],
+			[
+				"n",
+				"next"
+			],
+			[
+				"getD",
+				"getDisplayValue"
+			],
+			[
+				"unass",
+				"unassign"
+			],
+			[
+				"assi",
+				"assigned_to"
+			],
+			[
+				"start",
+				"start_date"
+			],
+			[
+				"sc",
+				"schedId"
+			],
+			[
+				"i",
+				"impact"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"su",
+				"subreddit"
+			],
+			[
+				"sub",
+				"subredditHeader"
+			],
+			[
+				"red",
+				"RedditLink"
+			],
+			[
+				"lin",
+				"linkTo"
+			],
+			[
+				"cur",
+				"curCabDate"
+			],
+			[
+				"rou",
+				"routeGroup"
+			],
+			[
+				"group",
+				"groupType"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"Glide",
+				"glideOverlay"
+			],
+			[
+				"r",
+				"rarr"
+			],
+			[
+				"log",
+				"logDebug"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"insert",
+				"insertFlag"
+			],
+			[
+				"u_",
+				"u_location"
+			],
+			[
+				"tim",
+				"timeSlot"
+			],
+			[
+				"getDate",
+				"getLocalDate"
+			],
+			[
+				"_u",
+				"_updateTaskReference"
+			],
+			[
+				"slot",
+				"slotId"
+			],
+			[
+				"slo",
+				"slotId"
+			],
+			[
+				"tab",
+				"tabrow"
+			],
+			[
+				"L",
+				"locationDisp"
+			],
+			[
+				"hea",
+				"headcell"
+			],
+			[
+				"on",
+				"onkeyup"
+			],
+			[
+				"inp",
+				"inp4"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"con",
+				"con1Div"
+			],
+			[
+				"b1",
+				"b1Div"
+			],
+			[
+				"div",
+				"divTemp1"
+			],
+			[
+				"apped",
+				"appendChild"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"selected_items":
+		[
+			[
+				"syn java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn xml",
+				"Set Syntax: XML"
+			],
+			[
+				"syn htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn xh",
+				"Set Syntax: HTML"
+			],
+			[
+				"",
+				"BracketHighlighter: Jump to Right Bracket"
+			],
+			[
+				"bra",
+				"BracketHighlighter: Remove Brackets"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"syn ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"gis",
+				"Gist: Update File"
+			],
+			[
+				"gi",
+				"Gist: Update File"
+			],
+			[
+				"syn",
+				"Set Syntax: CSS"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"synxml",
+				"Set Syntax: XML"
+			],
+			[
+				"syntex",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"syn javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synhtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"var",
+				"Snippet: vargr"
+			],
+			[
+				"ga",
+				"Snippet: gca"
+			],
+			[
+				"g",
+				"Snippet: gce"
+			],
+			[
+				"va",
+				"Snippet: vargr"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: vargr"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Try/Except"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tog",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"togg f",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"syn  xml",
+				"Set Syntax: XML"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"synta javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"now",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"syntax xml",
+				"Set Syntax: XML"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/UI Macro/Inquira.xml",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/ServiceGroupHelper.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/UI action/Ticket_Next.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/UI Macro/intuit_attachment.xml",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/ChangeRequestHelper.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/UI Page/order_accesories.xml",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/ChangeRequestAJAX.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Client script/Change request global functions.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Client script/Ticket Global functions.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Mail_CSS.css",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/IncidentHelper.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/MessageQueue.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/ApplicationAccessHelper.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/ServiceGroupHelperAJAX.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Web service/CreateChangeWithAttachment.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/sample Soap request.txt",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/CIApplicationUtils.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/UI Page/disconnected_related_list_dialog.html",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/CITree.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/MessageQueueProcessor.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/OIMCommandHandler.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/OIMProcessor.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/UI action/Change Request Approval.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/SomeOtherProcessor.js",
+		"/Users/amitrogye/Copy/untitled.xml",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/Custom_sn.css",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/symptomRefQual.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/encode_attachment_ui_action.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/test_change_with_attachment.js",
+		"/Users/amitrogye/Documents/temp/wof 2/test.html",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/GroupHelper.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Script include/NotificationHelper .js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/UI Macro/hot_incidents.xml",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/UI Page/disconnected_related_list.html",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/UI Macro/user_show_assets.xml",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/UI action/Emergency Change.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/UI action/Resubmit change.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/UI action/Change Request Initiate change.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Client script/Populate support group assignment group.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Client script/Populate task start time.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Business rule/State Rollup to Parent Incident.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Business rule/Set parent incident state to assigned.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Client script/Show hide Major incident section.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/UI action/u_task_route_next.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Business rule/Update Child Incidents.js",
+		"/Users/amitrogye/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Business rule/Backpopulate Chatroom in incident table.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/intuitdev01/Business rule/Create Chat room for P1 P2.js",
+		"/Users/amitrogye/Library/Application Support/Sublime Text 2/Packages/ApplySyntax/ApplySyntax.sublime-settings",
+		"/Users/amitrogye/Library/Application Support/Sublime Text 2/Packages/User/ApplySyntax.sublime-settings",
+		"/Users/amitrogye/Library/Application Support/Sublime Text 2/Packages/sn-Sublime/serviceNowBuild.py",
+		"/Users/amitrogye/Downloads/Intake Functionality v1.0 (Calgary).xml",
+		"/Users/amitrogye/Downloads/mixitup-1.5.5/README.md",
+		"/Users/amitrogye/Downloads/mixitup-1.5.5/jquery.mixitup.min.js",
+		"/Users/amitrogye/Downloads/mixitup-1.5.5/bower.json",
+		"/Users/amitrogye/Copy/service-now/localCopy/fruition17/UI Macro/intake_handler.html",
+		"/Users/amitrogye/Copy/service-now/localCopy/fruition17/Script include/game.sublime-project",
+		"/Users/amitrogye/Copy/service-now/localCopy/fruition17/Script include/symptomRefQual.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/fruition17/UI Page/disconnected_related_list.html",
+		"/Users/amitrogye/Copy/service-now/localCopy/fruition17/UI Page/disconnected_related_list_dialog.html",
+		"/Users/amitrogye/Copy/service-now/localCopy/fruition17/UI Macro/user_show_assets.html",
+		"/Users/amitrogye/Copy/service-now/localCopy/fruition17/Script include/ServiceGroupHelper.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/fruition17/Script include/ServiceGroupHelperAJAX.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/fruition17/Client script/Ticket Global functions.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/fruition17/UI action/Ticket_Next.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/fruition17/Client script/Auto-populate on symptom change.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/fruition17/Script include/IntakeHelperAJAX.js",
+		"/Users/amitrogye/Downloads/test.ics",
+		"/Users/amitrogye/Downloads/invite (3).ics",
+		"/Users/amitrogye/Documents/servicenow/demo_8080/conf/glide.properties",
+		"/Users/amitrogye/Documents/servicenow/demo_8080/conf/glide-java-opts.conf",
+		"/Users/amitrogye/Documents/servicenow/demo_8080/conf/glide.db.properties",
+		"/Users/amitrogye/Documents/servicenow/demo_8080/conf/overrides.d/10-nodeconfig.properties",
+		"/Users/amitrogye/Documents/temp/gridster/index.html",
+		"/Users/amitrogye/Documents/temp/gridster/css/demo.css",
+		"/Users/amitrogye/Documents/temp/game/index.html",
+		"/Users/amitrogye/Documents/temp/game/css/game.css",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Client Scripts/EUS scheduler/CovanceSchedulerAjax.js",
+		"/Users/amitrogye/Library/Application Support/Sublime Text 2/Packages/Gist/Gist.sublime-settings",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Script Include/CovanceCatalogNotification.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/Covance/Script include/CovanceSchedulerAjax.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/Covance/Script include/TimeSlotSetup.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Script Include/vCacHelper.js",
+		"/Users/amitrogye/Copy/service-now/localCopy/Covance/Script include/BackupRequestHelper.js",
+		"/Volumes/Git 1.8.4.2 Snow Leopard Intel Universal/setup git PATH for non-terminal programs.sh",
+		"/Volumes/Git 1.8.4.2 Snow Leopard Intel Universal/README.txt",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Novelis/Script include/NovelisHelper.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Novelis/Script include/NovelisUiAJAXHelper.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Novelis/UI action/Request approval.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Novelis/Script include/NovelisHelper-Amit’s MacBook Pro-2.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Novelis/Script include/NovelisHelper-Amit’s MacBook Pro.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Client Scripts/EUS scheduler/deskside_support_client_script.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Client Scripts/EUS scheduler/schedule_start_macro.xml",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Client Scripts/EUS scheduler/deskside_support_html.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Script Include/PeopleSoftApprovalHelper.js",
+		"/Users/amitrogye/Documents/temp/Ember/css/style.css",
+		"/Users/amitrogye/Documents/temp/Ember/index.html",
+		"/Users/amitrogye/Documents/temp/Ember/js/app.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Script Include/NovelisHelper.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Script Include/BackupRequestHelper.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Script Include/GASAFApprovalHandler.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Script Include/untitled.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Script Include/CovanceSchedulerAjax.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Script Include/CovanceUiAJAXHelper.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/sitemods/scripts/rollup.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/ui script/rollup.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/kb_knowledge/sample article.html",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/sample-grabbody.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/RTI/global_rti_drop.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/groups/Support_Group.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/groups/local_onsite_drop.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/solutions/sample-grabbody.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/groups/Milwaukee_Onsite.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/RTI/global_rti_drop.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/groups/Des_Moines_Onsite.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/groups/local_onsite_drop.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/groups/Remote_Site_Support.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/groups/Springfield_Onsite.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/groups/noescalation.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/groups/Iowa_City_Onsite.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/groups/Dubuque_Onsite.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/groups/Davenport_Onsite.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/Sample_Article/kb_include/HM/groups/Chicago_Onsite.htm",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/UI Page/clone_request.xml",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/Script Include/TimeSlotSetup.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/KB customization/script include/CovanceKbStaticContent.js",
+		"/Users/amitrogye/SkyDrive/service-now/localCopy/MidServer Script Include/T1.js",
+		"/Users/amitrogye/Downloads/testfile.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/amitrogye/SkyDrive/service-now/localCopy/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_scheduleQueueProcessor",
+			"gdt",
+			"user_na",
+			"ws_checkRequiredFields",
+			"ws_validateFields",
+			"deb",
+			"this.record",
+			"());\n",
+			"STATUS_SENT",
+			"changeObj",
+			"ws_checkRequiredFields",
+			"updateRequest",
+			"this.log",
+			"is ready",
+			"ws_updateAdditionalFields",
+			"json",
+			"ChangeTask",
+			"<s:",
+			"</s:",
+			"<s:",
+			"s:",
+			"bott",
+			"footer",
+			"APPLICATION_SOX_FIELD",
+			"approver",
+			"APPLICATION_VARIABLE",
+			"TIER_LEVELS",
+			"this.logDebug",
+			"this.log",
+			"get",
+			"ws_checkRequiredFields",
+			"intuit_item_preview",
+			"clearRef",
+			"requested_by",
+			"current",
+			"logDebug",
+			"ws_checkRequiredFields",
+			"archan",
+			"arch",
+			"t",
+			"tre",
+			"work_notes",
+			"sig",
+			"AudienceRestriction",
+			"AudienceRestriction validation failed",
+			"loginProcess",
+			"packa",
+			"jvar_authnrequeststring",
+			"approvalLoginFrame",
+			"Session",
+			"session",
+			"Session",
+			"gs.log",
+			"gs.print",
+			"OVERRIDE_TEMPLATE",
+			"ws_createAttachment",
+			"gr",
+			"risk",
+			"prio",
+			"gr.",
+			"_ws_changeInfo",
+			"change_task",
+			"getTableName",
+			"ws_createAttachment",
+			"gr.",
+			"approval_consumer_url",
+			"integration.saml_esig.approval_consumer_url",
+			"com.snc.integration.saml_esig.approval_consumer_url",
+			"id",
+			"_addParentCI",
+			"services",
+			"this.services",
+			"_addParentServices",
+			"_addService",
+			"response",
+			"tailCommandRecordCount",
+			"executeCommand",
+			"executeC",
+			"fError",
+			"arraylist",
+			"arraylist1",
+			"arraylist",
+			"execute",
+			"SNDataRetriever",
+			"u_incident_task",
+			"uniq",
+			"textareaSizer_Resize",
+			"tabs_toggle_button",
+			"description",
+			"Description",
+			"description",
+			"\"\"",
+			"this.logDebug",
+			"this.log.",
+			"Skipping the processing of Message queue",
+			"this.logDebug",
+			":",
+			"save the da",
+			"OIMProcessor",
+			"Simultaneous",
+			"SIMULTANEOUS",
+			"queueRec",
+			"ArrayUtil",
+			"_updateQueue",
+			"Message Queue id",
+			"myAJAXHelper",
+			"rec.",
+			"rec",
+			"defau",
+			"user_id",
+			"<getRecordsResult>",
+			"<user_name>",
+			"<user_name/>",
+			"u_dn",
+			"strClass",
+			"clsClass",
+			"SEND_READY",
+			"i",
+			"ws_validateFields",
+			"backDated",
+			"ws_validateFields",
+			"ws_validateDateFields",
+			"change_request",
+			"ws_validateDateFields",
+			"ws_getDetailsFromTemplate",
+			"ws_checkRequiredFields",
+			"in ",
+			"each"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&amp;",
+			"&amp;amp;",
+			"",
+			"</u_name>",
+			"<u_name>",
+			"u_business_unit",
+			"country",
+			"code",
+			"</u_name>",
+			"<u_name>",
+			"u_business_unit"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"servicegrouphelperajax",
+				"Script include/ServiceGroupHelperAJAX.js"
+			],
+			[
+				"symptomrefqual",
+				"Script include/symptomRefQual.js"
+			],
+			[
+				"covancecatalognotification",
+				"Script Include/CovanceCatalogNotification.js"
+			],
+			[
+				"backuprequesthelper",
+				"Script Include/BackupRequestHelper.js"
+			],
+			[
+				"vca",
+				"Script Include/vCacHelper.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true
+}
