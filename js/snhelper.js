@@ -19,7 +19,7 @@ window.bookmarklet({
             jQuery("body").append(wheel);
             jQuery(document).ready(function() {
                 jQuery("#nav").ferroMenu({
-                     position : 'center-center'
+                     position : 'center-top'
                 });
             });
             flg = true;
