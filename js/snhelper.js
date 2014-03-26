@@ -11,16 +11,26 @@ window.bookmarklet({
     ready: function() {
 
 
-        alert("hello -- " + jQuery.fn.jquery);
+        //alert("hello -- " + jQuery.fn.jquery);
 
+        var flg = false;
+        if (jQuery("#ferromenu-controller-0").length <= 0) {
+            var wheel = '<ul id="nav"><li><a href="javascript:void(0);">UP</a></li><li><a href="javascript:void(0);">New</a></li></ul>';
+            jQuery("body").append(wheel);
+            jQuery(document).ready(function() {
+                jQuery("#nav").ferroMenu();
+            });
+            flg = true;
+        }
 
+        if(!flg){
+            if(jQuery("#ferromenu-controller-0").is(":visible")){
+                jQuery("#ferromenu-controller-0").hide('slow');
+            }else{
+                jQuery("#ferromenu-controller-0").show('slow');
+            }
+        }
 
-        var wheel = '<ul id="nav"><li><a href="javascript:void(0);">UP</a></li><li><a href="javascript:void(0);">New</a></li></ul>';
-        jQuery("body").append(wheel);
-
-        jQuery(document).ready(function() {
-            jQuery("#nav").ferroMenu();
-        });
     }
 })
 
