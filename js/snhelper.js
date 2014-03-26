@@ -5,7 +5,7 @@ window.bookmarklet = function(opts) {
 // These are the styles, scripts and callbacks we include in our bookmarklet:
 window.bookmarklet({
 
-
+	css: ['https://amitrogye.github.io/SNHelper/css/wheelmenu.css'],
     js: ['https://amitrogye.github.io/SNHelper/js/jquery.wheelmenu.min.js'],
     jqpath: 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js',
     ready: function() {
@@ -41,6 +41,7 @@ function fullFunc(a) {
         c.type = "text/javascript";
         c.src = b;
         c.onload = function() {
+            e(a.css);
             d(a.js)
         };
         document.body.appendChild(c)
