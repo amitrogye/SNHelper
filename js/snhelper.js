@@ -29,7 +29,7 @@ function fullFunc(a) {
             }).appendTo("head")
         })
     }
-    a.jqpath = a.jqpath || "jquery-2.0.3.min.js";
+    a.jqpath = a.jqpath || "https://amitrogye.github.io/SNHelper/js/jquery-2.0.3.min.js";
     (function(b) {
         e(a.css);
         d(a.js)
