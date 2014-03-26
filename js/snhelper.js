@@ -25,6 +25,9 @@ window.bookmarklet({
 
         if(!flg){
             if(jQuery("#ferromenu-controller-0").is(":visible")){
+                if(jQuery(".ferromenu-controller").hasClass("open")){
+                    jQuery.fn.ferroMenu.toggleMenu(jQuery("a#ferromenu-controller-0").data("ferromenuitem"))
+                }
                 jQuery("#ferromenu-controller-0").hide('slow');
             }else{
                 jQuery("#ferromenu-controller-0").show('slow');
