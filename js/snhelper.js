@@ -16,26 +16,30 @@ window.bookmarklet({
         var flg = false;
         if (jQuery("#ferromenu-controller-0").length <= 0) {
             var wheel = '<ul id="nav">';
-            wheel+='<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'sys_ui_page_list.do\';collapseMenu();">up</a></li>';
-            wheel+='<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'sys_ui_macro_list.do\';collapseMenu();">um</a></li>';
-            wheel+='<li><a href="javascript:console.log(this.top);window.open(window.frames[\'gsft_main\'].location.href);collapseMenu();">nw</a></li>';
-            wheel+='</ul>';
+            wheel += '<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'sys_ui_page_list.do\';collapseMenu();">up</a></li>';
+            wheel += '<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'sys_ui_macro_list.do\';collapseMenu();">um</a></li>';
+            wheel += '<li><a href="javascript:console.log(this.top);window.open(window.frames[\'gsft_main\'].location.href);collapseMenu();">nw</a></li>';
+            wheel += '</ul>';
             jQuery("body").append(wheel);
             jQuery(document).ready(function() {
                 jQuery("#nav").ferroMenu({
-                     position : 'center-top'
+                    position: 'center-top',
+                    delay: 50,
+                    rotation: 720,
+                    margin: 20,
+                    opened: true
                 });
             });
             flg = true;
         }
 
-        if(!flg){
-            if(jQuery("#ferromenu-controller-0").is(":visible")){
-                if(jQuery(".ferromenu-controller").hasClass("open")){
+        if (!flg) {
+            if (jQuery("#ferromenu-controller-0").is(":visible")) {
+                if (jQuery(".ferromenu-controller").hasClass("open")) {
                     jQuery.fn.ferroMenu.toggleMenu(jQuery("a#ferromenu-controller-0").data("ferromenuitem"))
                 }
                 jQuery("#ferromenu-controller-0").hide('slow');
-            }else{
+            } else {
                 jQuery("#ferromenu-controller-0").show('slow');
             }
         }
@@ -43,7 +47,7 @@ window.bookmarklet({
     }
 });
 
-function collapseMenu(){
+function collapseMenu() {
     jQuery.fn.ferroMenu.toggleMenu(jQuery("a#ferromenu-controller-0").data("ferromenuitem"));
 }
 
