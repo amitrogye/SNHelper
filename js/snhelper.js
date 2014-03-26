@@ -17,6 +17,7 @@ window.bookmarklet({
         if (jQuery("#ferromenu-controller-0").length <= 0) {
             var wheel = '<ul id="nav">';
             wheel+='<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'sys_ui_page_list.do\';collapseMenu();">up</a></li>';
+            wheel+='<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'sys_ui_macro_list.do\';collapseMenu();">um</a></li>';
             wheel+='<li><a href="javascript:console.log(this.top);window.open(window.frames[\'gsft_main\'].location.href);collapseMenu();">nw</a></li>';
             wheel+='</ul>';
             jQuery("body").append(wheel);
