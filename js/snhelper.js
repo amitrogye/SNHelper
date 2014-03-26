@@ -18,7 +18,9 @@ window.bookmarklet({
             var wheel = '<ul id="nav"><li><a href="javascript:void(0);">UP</a></li><li><a href="javascript:void(0);console.log($(\'gsft_main\'))">New</a></li></ul>';
             jQuery("body").append(wheel);
             jQuery(document).ready(function() {
-                jQuery("#nav").ferroMenu();
+                jQuery("#nav").ferroMenu({
+                     position : 'center-center'
+                });
             });
             flg = true;
         }
