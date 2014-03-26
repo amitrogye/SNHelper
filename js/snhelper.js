@@ -12,7 +12,7 @@ window.bookmarklet({
 
 
         //alert("hello -- " + jQuery.fn.jquery);
-javascript:(function(){window.open($('gsft_main').contentWindow.location.href);})();
+        //window.open($('gsft_main').contentWindow.location.href);
         var flg = false;
         if (jQuery("#ferromenu-controller-0").length <= 0) {
             var wheel = '<ul id="nav"><li><a href="javascript:void(0);">UP</a></li><li><a href="javascript:void(0);console.log($(\'gsft_main\'))">New</a></li></ul>';
