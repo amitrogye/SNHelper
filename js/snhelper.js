@@ -2,13 +2,19 @@ window.bookmarklet = function(opts) {
     fullFunc(opts)
 };
 
+// These are the styles, scripts and callbacks we include in our bookmarklet:
 window.bookmarklet({
-    css: ['https://gist.github.com/amitrogye/7818568/raw/5a01c375673572fc0a4e704e2a4e35ca753bf6ff/zebra_dialog.css'],
-    js: ['https://gist.github.com/amitrogye/7818521/raw/4f27f1b64ece3537ddab27fa3255d87eae353edb/zebra_dialog.js'],
+
+
+    js: ['https://amitrogye.github.io/SNHelper/js/jquery.wheelmenu.min.js'],
+    jqpath: 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js',
     ready: function() {
-        alert('Hello world - ' + jQuery.fn.jquery);
+
+
+        alert("hello -- " + jQuery.fn.jquery);
+
     }
-});
+})
 
 function fullFunc(a) {
     function d(b) {
@@ -29,10 +35,14 @@ function fullFunc(a) {
             }).appendTo("head")
         })
     }
-    a.jqpath = a.jqpath || "https://amitrogye.github.io/SNHelper/js/jquery-2.0.3.min.js";
+    a.jqpath = a.jqpath || "https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js";
     (function(b) {
-        e(a.css);
-        d(a.js)
-
+        var c = document.createElement("script");
+        c.type = "text/javascript";
+        c.src = b;
+        c.onload = function() {
+            d(a.js)
+        };
+        document.body.appendChild(c)
     })(a.jqpath)
 };
