@@ -15,7 +15,7 @@ window.bookmarklet({
         //window.open($(\'gsft_main\').contentWindow.location.href);
         var flg = false;
         if (jQuery("#ferromenu-controller-0").length <= 0) {
-            var wheel = '<ul id="nav"><li><a href="javascript:void(0);">UP</a></li><li><a href="javascript:console.log(this.top);window.open(window.frames[\'gsft_main\'].location.href);">New</a></li></ul>';
+            var wheel = '<ul id="nav"><li><a href="javascript:void(0);">UP</a></li><li><a href="javascript:console.log(this.top);window.open(window.frames[\'gsft_main\'].location.href);collapseMenu();">New</a></li></ul>';
             jQuery("body").append(wheel);
             jQuery(document).ready(function() {
                 jQuery("#nav").ferroMenu({
@@ -37,7 +37,11 @@ window.bookmarklet({
         }
 
     }
-})
+});
+
+function collapseMenu(){
+    jQuery.fn.ferroMenu.toggleMenu(jQuery("a#ferromenu-controller-0").data("ferromenuitem"));
+}
 
 function fullFunc(a) {
     function d(b) {
