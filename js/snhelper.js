@@ -54,7 +54,7 @@ function collapseMenu() {
 function fullFunc(a) {
     function d(b) {
         if (b.length === 0) {
-            a.ready();
+            //a.ready();
             return false
         }
         jQuery.getScript(b[0], function() {
