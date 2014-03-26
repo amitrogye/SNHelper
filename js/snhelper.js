@@ -6,7 +6,7 @@ window.bookmarklet({
     css: ['https://gist.github.com/amitrogye/7818568/raw/5a01c375673572fc0a4e704e2a4e35ca753bf6ff/zebra_dialog.css'],
     js: ['https://gist.github.com/amitrogye/7818521/raw/4f27f1b64ece3537ddab27fa3255d87eae353edb/zebra_dialog.js'],
     ready: function() {
-        alert('Hello world');
+        alert('Hello world - ' + jQuery.fn.jquery);
     }
 });
 
