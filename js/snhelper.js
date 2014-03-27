@@ -76,6 +76,7 @@ function fullFunc(a) {
         c.type = "text/javascript";
         c.src = b;
         c.onload = function() {
+            jQuery.noConflict();
             e(a.css);
             d(a.js)
         };
