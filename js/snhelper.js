@@ -31,7 +31,7 @@ window.bookmarklet({
                     delay: 50,
                     rotation: 720,
                     margin: 20,
-                    opened: true
+                    opened: false
                 });
             });
             flg = true;

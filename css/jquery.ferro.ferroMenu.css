@@ -48,7 +48,7 @@
 }
 
 #nav li a,#nav2 li a{
-	font-size:20px;
+	font-size:15px;
 	color:#f2f2f2;
 	text-decoration:none;
 	width:40px;
@@ -58,6 +58,9 @@
 	background: #45484d;
 	line-height:40px;
 	display:block;
+}
+#nav li a,#nav2 li a:hover {
+text-decoration: none;
 }
 
 #nav li.desktop a:hover,#nav2 li.desktop a:hover,
