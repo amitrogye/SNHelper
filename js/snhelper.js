@@ -81,7 +81,7 @@ function getSublimeHead() {
             fieldName = "xml";
             break;
     }
-    strUrl = fieldName+'<BR/>';
+    strUrl += fieldName+'<BR/>';
     strUrl +='// __authentication = STORED';
 
     window.frames["gsft_main"].document.write(strUrl);
