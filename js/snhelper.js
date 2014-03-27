@@ -74,10 +74,10 @@ function getSublimeHead() {
     strUrl +='// __fieldName = ';
     var fieldName = "script";
     switch (table){
-        case "sys_ui_page" :
+        case "sys_ui_page.do" :
             fieldName = "html";
             break;
-        case "sys_ui_macro" :
+        case "sys_ui_macro.do" :
             fieldName = "xml";
             break;
     }
