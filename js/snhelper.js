@@ -21,6 +21,7 @@ window.bookmarklet({
             wheel += '<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'sys_script_include_list.do\';collapseMenu();">si</a></li>';
             wheel += '<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'sys_script_list.do\';collapseMenu();">br</a></li>';
             wheel += '<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'sys.scripts.do\';collapseMenu();">bs</a></li>';
+            wheel += '<li><a href="javascript:getSublimeHead();collapseMenu();">sbl</a></li>';
             wheel += '<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'syslog_list.do?sysparm_query=sys_created_onONToday@javascript:gs.daysAgoStart(0)@javascript:gs.daysAgoEnd(0)^EQ\';collapseMenu();">lg</a></li>';
             wheel += '<li><a href="javascript:console.log(this.top);window.open(window.frames[\'gsft_main\'].location.href);collapseMenu();">nw</a></li>';
             wheel += '</ul>';
@@ -53,6 +54,37 @@ window.bookmarklet({
 
 function collapseMenu() {
     jQuery.fn.ferroMenu.toggleMenu(jQuery("a#ferromenu-controller-0").data("ferromenuitem"));
+}
+
+function getSublimeHead() {
+    // __fileURL = https://intuitdev01.service-now.com/undefined?sys_id=undefined
+    // __fieldName = script
+    // __authentication = STORED
+    var origin = window.location.origin;
+    var table = "";
+    var sid = "";
+    if (jQuery("#gsft_main").length == 0) {
+        table = jQuery("#section_form_id").val();
+        sid = jQuery("#sys_uniqueValue").val();
+    } else {
+        table = jQuery('#gsft_main').contents().find('#section_form_id').val();
+        sid = jQuery('#gsft_main').contents().find('#sys_uniqueValue').val();
+    }
+    var strUrl = '// __fileURL = ' + origin + "/" + table + '?sys_id=' + sid + '<BR/>';
+    strUrl +='// __fieldName = ';
+    var fieldName = "script";
+    switch (table){
+        case "sys_ui_page" :
+            fieldName = "html";
+            break;
+        case "sys_ui_macro" :
+            fieldName = "xml";
+            break;
+    }
+    strUrl = fieldName+'<BR/>';
+    strUrl +='// __authentication = STORED';
+
+    window.frames["gsft_main"].document.write(strUrl);
 }
 
 function fullFunc(a) {
