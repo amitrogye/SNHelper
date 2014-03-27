@@ -20,6 +20,7 @@ window.bookmarklet({
             wheel += '<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'sys_ui_macro_list.do\';collapseMenu();">um</a></li>';
             wheel += '<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'sys_script_include_list.do\';collapseMenu();">si</a></li>';
             wheel += '<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'sys_script_list.do\';collapseMenu();">br</a></li>';
+            wheel += '<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'sys.scripts.do\';collapseMenu();">bs</a></li>';
             wheel += '<li><a href="javascript:window.frames[\'gsft_main\'].location.href = \'syslog_list.do?sysparm_query=sys_created_onONToday@javascript:gs.daysAgoStart(0)@javascript:gs.daysAgoEnd(0)^EQ\';collapseMenu();">lg</a></li>';
             wheel += '<li><a href="javascript:console.log(this.top);window.open(window.frames[\'gsft_main\'].location.href);collapseMenu();">nw</a></li>';
             wheel += '</ul>';
