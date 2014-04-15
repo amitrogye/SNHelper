@@ -28,7 +28,7 @@ window.bookmarklet({
             jQuery("body").append(wheel);
             jQuery(document).ready(function() {
                 jQuery("#nav").ferroMenu({
-                    position: 'center-top',
+                    position: 'center-bottom',
                     delay: 50,
                     rotation: 720,
                     margin: 20,
